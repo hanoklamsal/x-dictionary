@@ -32,6 +32,7 @@ function App() {
     <div className="App">
       <h1>Dictionary App</h1>
       <input
+      type="text"
         onChange={handleChange}
         name="word"
         value={inputText}
